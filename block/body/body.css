@@ -1,0 +1,9 @@
+.body {
+ color: #fff;
+ font-family: "Khula", sans-serif;
+ height: 100vh;
+ overflow: hidden;
+ margin: 0;
+ text-align: center;
+ box-sizing: border-box;
+}

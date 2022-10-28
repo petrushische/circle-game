@@ -1,0 +1,8 @@
+.screen__start {
+ font-size: 1.5rem;
+}
+
+.screen__start:hover {
+ cursor: pointer;
+ color: #16d9e3;
+}

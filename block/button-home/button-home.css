@@ -1,0 +1,16 @@
+.button-home {
+ background: #29323c;
+ border: none;
+ background-image: url('../../images/home.svg');
+ background-repeat: no-repeat;
+ background-size: cover;
+ position: absolute;
+ top: 30px;
+ left: 30px;
+ width: 50px;
+ height: 50px;
+}
+
+.button-home:hover {
+ cursor: pointer;
+}

@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css?family=Khula&display=swap");
+
+@import url(../block/body/body.css);
+@import url(../block/screen/screen.css);
+@import url(../block/screen/__title/screen__title.css);
+@import url(../block/screen/__start/screen__start.css);
+@import url(../block/screen/__time-list/screen__time-list.css);
+@import url(../block/screen/__time-btn/screen__time-btn.css);
+@import url(../block/screen/__time-elem/screen__time-elem.css);
+@import url(../block/screen/__board/screen__board.css);
+@import url(../block/button-home/button-home.css);
+
+
+
+
+
+
+.screen.up {
+ margin-top: -100vh;
+}
+
+.screen.down {
+ margin-top: 100vh;
+}
+
+
+
+.hide {
+ opacity: 0;
+}
+
+
+.primary {
+ color: #16d9e3;
+}
+
+
+
+.circle {
+ background: linear-gradient(90deg, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
+ position: absolute;
+ border-radius: 50%;
+ cursor: pointer;
+}
