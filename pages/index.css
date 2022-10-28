@@ -9,6 +9,7 @@
 @import url(../block/screen/__time-elem/screen__time-elem.css);
 @import url(../block/screen/__board/screen__board.css);
 @import url(../block/circle/circle.css);
+@import url(../block/button-home/button-home.css);
 
 .up {
  margin-top: -100vh;
