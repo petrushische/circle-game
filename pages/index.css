@@ -8,18 +8,13 @@
 @import url(../block/screen/__time-btn/screen__time-btn.css);
 @import url(../block/screen/__time-elem/screen__time-elem.css);
 @import url(../block/screen/__board/screen__board.css);
-@import url(../block/button-home/button-home.css);
+@import url(../block/circle/circle.css);
 
-
-
-
-
-
-.screen.up {
+.up {
  margin-top: -100vh;
 }
 
-.screen.down {
+.down {
  margin-top: 100vh;
 }
 
@@ -27,18 +22,4 @@
 
 .hide {
  opacity: 0;
-}
-
-
-.primary {
- color: #16d9e3;
-}
-
-
-
-.circle {
- background: linear-gradient(90deg, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
- position: absolute;
- border-radius: 50%;
- cursor: pointer;
 }
