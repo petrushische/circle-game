@@ -1,3 +1,4 @@
+import '../pages/index.css'
 const start = document.querySelector('.screen__start');
 const screens = document.querySelectorAll('.screen');
 const timeList = document.querySelector('.screen__time-list');
@@ -8,7 +9,6 @@ let score = 0;
 const colors = ['red', 'blue', 'yellow', 'green', 'white']
 const gameTime = document.querySelector('#time');
 const board = document.querySelector('.screen__board')
-
 const buttonHome = document.querySelector('.button-home');
 
 // Возвращение домой
@@ -98,3 +98,21 @@ board.addEventListener('click', evt => {
   createRandomCircle()
  }
 })
+
+
+/*
+// Авто нажатия
+function isiWin() {
+ function kill() {
+  const circle = document.querySelector('.circle')
+  if (circle) {
+   circle.click()
+  } else {
+   return
+  }
+ }
+ setInterval(kill, 100)
+}
+isiWin()
+*/
+
